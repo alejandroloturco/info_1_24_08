@@ -1,0 +1,9 @@
+#ejercicio 1
+i=int(input("numero"))
+o=int(input("multiplo"))
+p=1
+q=i
+while p < o:
+    i+=q
+    p+=1
+print(i)
