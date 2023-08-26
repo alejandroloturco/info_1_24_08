@@ -1,0 +1,14 @@
+cont_nota = int(input("cuantas notas desea ingresar: "))
+romper=0
+prom=0
+while True:
+    pide_nota=float(input('ingresar nota: '))
+    if 0 <= pide_nota <=5:
+        prom += pide_nota
+        romper +=1
+        if romper == cont_nota:
+            print(prom/cont_nota)
+            break
+    else:
+        print('la nota debe ser un valor entre 0 y 5')
+
