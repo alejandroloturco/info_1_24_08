@@ -1,0 +1,15 @@
+#hacer un lagoritmo que encuentre la suma de los numeros impares comprendidos entre 1 y N
+N = int(input("ingrese un valor para el limite de la suma de numero impares: "))
+x = 0
+sum = 0
+if N != 0:
+    while True:
+        if x<=N:
+            if x%2 == 1:
+                sum+=x
+            x+=1
+        else:
+            break
+    print(sum)
+else:
+    print('0 es par')
