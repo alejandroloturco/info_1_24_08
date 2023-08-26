@@ -11,4 +11,5 @@ while True:
             break
     else:
         print('la nota debe ser un valor entre 0 y 5')
+        break
 
