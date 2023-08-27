@@ -1,0 +1,18 @@
+#Elaborar un algoritmo que encuentre el factorial de un número comprendido entre 0 y 20
+#En caso de que se cometa un error o se haya terminado de realizar la tarea solicitada, que el programa dela opción de volver a empezar
+while True:
+    rep = input('desea obtener el factorial de un numero(y/n): ')
+    if rep.lower() == 'y':
+        factorial=int(input('ingres el numero que desea calcular su factorial (valores entre 0 y 20): '))
+        facto=factorial
+        while True:
+            factorial-=1
+            if 0 < factorial:
+                facto*=(factorial)
+            else:
+                print(facto)
+                break
+    elif rep.lower() == 'n':
+        break
+    else:
+        print ('por favor ingrese (y/n)')
