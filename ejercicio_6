@@ -1,0 +1,12 @@
+#Elaborar un algoritmo que calcule el valor de la siguiente sumatoria para n términos:
+#sum(1/a)**i, i=limite inferior, n=limite superior
+print('para la sumatoria (1/a), por favor indique los valores de')
+n = int(input('limite superior: '))
+i = 2
+a = float(input('denominador(a): '))
+sum = ((1/a))
+while i <= n:
+    sum += ((1/a)**i)
+    i+=1
+    print(sum)
+
