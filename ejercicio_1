@@ -1,4 +1,4 @@
-#ejercicio 1
+#Realice un algoritmo que permita calcular la multiplicación de dos números enteros solo usandosumas
 i=int(input("numero"))
 o=int(input("multiplo"))
 p=1
