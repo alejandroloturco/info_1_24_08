@@ -1,7 +1,6 @@
 #Realice un algoritmo que permita calcular a partir de un número de notas, 
 #el promedio de unamateria, sabiendo que cada nota tiene el mismo porcentaje y están evaluadas de 0 a 5
 
-
 cont_nota = int(input("cuantas notas desea ingresar: "))
 romper=0
 prom=0
