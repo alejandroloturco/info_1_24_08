@@ -1,3 +1,6 @@
+#Desarrollar un algoritmo que escriba en pantalla, uno después del otro, 
+#los resultados de lafunción n^x desde 0 hasta n, con n entero positivo máximo 9 y x positivo máximo de 9
+
 base = int(input("ingres el numero que corresponde a la base de la potencia:  "))
 exponente = int(input("ingrese la potencia a la que desea elevar su base: "))
 cont = 0
